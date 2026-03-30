@@ -1,11 +1,43 @@
 # Dependencies
-data/
+node_modules/
+.pnp
+.pnp.js
 
-# OS files
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
 .DS_Store
 Thumbs.db
 
-# Editor files
+# IDE
+.vscode/settings.json
+.idea/
 *.swp
-*.swo
-*~
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
